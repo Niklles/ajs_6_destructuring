@@ -1,0 +1,39 @@
+{
+  "name": "ajs_6_destructuring",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --coverage",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "build": "webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Niklles/ajs_6_destructuring.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Niklles/ajs_6_destructuring/issues"
+  },
+  "homepage": "https://github.com/Niklles/ajs_6_destructuring#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.27.0",
+    "@babel/core": "^7.26.10",
+    "@babel/eslint-parser": "^7.27.0",
+    "@babel/preset-env": "^7.26.9",
+    "eslint": "^8.57.1",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "globals": "^16.0.0",
+    "jest": "^29.7.0",
+    "webpack": "^5.99.5",
+    "webpack-cli": "^6.0.1"
+  },
+  "dependencies": {
+    "core-js": "^3.41.0",
+    "global": "^4.4.0",
+    "yarn": "^1.22.22"
+  }
+}
